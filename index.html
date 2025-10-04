@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <title> start up landing </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            html, body{
+                margin: 0;
+
+            }
+            header{
+                display: flex; 
+                align-items: center;
+                justify-content: space-between; 
+                height: 20%; 
+                background-color: rgba(124, 150, 228, 0.84);
+                padding: 0 20px;
+            }
+            header li{
+                list-style: none;
+                display: flex; 
+                align-items: center;
+                float: left;
+                margin: 5px;
+            }
+
+            div{
+                height: 30%;
+            }
+            table{
+                      border-collapse: collapse;   
+                      margin: auto;    
+                      margin-top: 3%;
+                      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.84);
+            }
+            th,td{
+                padding: 0 50px;
+            }
+            th{
+                background-color: darkorange;
+            }
+            td{
+                background-color: rgb(238, 239, 242);
+            }
+            #list{
+                margin-left: 50px;
+            }
+            form{
+                margin: 3%;
+            }
+            button{
+                border-radius: 20px;
+            }
+            button:hover{
+                background-color: rgb(0, 255, 119);
+                height: 25px;
+                width: 60px;
+                transition: 1000ms;
+            }
+        </style>
+
+    </header>
+    <body>
+        <header>
+            <a href="https://www.amazon.in/"> <img src="Amazon-Logo-768x432.png" alt="Amazon-Logo-768x432" style="width: 10%;"> </a>
+            <ul;>
+                    <li> home</li>
+                    <li>features</li>
+                    <li>form</li>
+                    <li>footer</li>
+            </ul>   
+        </header>
+        <div id="product_listing">
+            <hr>
+            <table border="1">
+                <tr>
+                    <th> <strong> product </strong></th>
+                    <th> <strong> price </strong></th>
+                    <th> <strong> category </strong></th>
+                </tr>
+                <tr>
+                    <td> Iphone</td>
+                    <td> 105$ </td>
+                    <td> Smart Phone </td>
+                </tr>
+                <tr>
+                     <td> Lenovo IdeaPad </td>
+                     <td> 160$ </td>
+                     <td> laptop </td>
+                </tr>
+                <tr>
+                    <td> Air Conditioner </td>
+                    <td> 120$ </td>
+                    <td> Home Appliance </td>
+                </tr>
+            </table>
+
+            <div id="list"> 
+                <h5> <b>List of Items :</b></h5>
+                <ul>
+                    <li> <em>Iphone - 105$</em> </li>
+                    <li> <em>Lenovo IdeaPad - 160%</em> </li>
+                    <li> <em>Air Conditioner - 120$</em></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+        <div id="contact">
+
+            <h4>Contact Form</h4>
+            <form>
+                <label for="name">Name :</label>
+                <input type="text" id="name">
+                <br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email">
+                <br><br>
+                <label for="message">Message :</label>
+                <textarea id="message"></textarea>
+                <br><br>
+                <label for="topic">Topic :</label>
+                <select id="topic">
+                    <option>General</option>
+                    <option>Support</option>
+                </select>
+                <br><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <section class="media">
+
+                <audio controls src=""></audio>
+                <br>
+                <video controls src="video.mp4"></video>
+            </section>
+        </div>
+        <hr>
+            <footer id="footer" style="text-align: center; padding: 1%;font-size: xx-large; color: aliceblue; background-color: crimson;">
+                thanks you!
+            </footer>
+    </body>
+</html>
